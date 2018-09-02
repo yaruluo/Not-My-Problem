@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Not My Problem</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Ewert|Faster+One|Monofett|Rock+Salt" rel="stylesheet">
+<!--Javascript-->
+    <script>
+     function change_tab(id)
+     {
+       document.getElementById("page_content").innerHTML=document.getElementById(id+"_desc").innerHTML;
+       document.getElementById("About").className="notselected";
+       document.getElementById("Products").className="notselected";
+       document.getElementById("Travel").className="notselected";
+       document.getElementById(id).className="selected";
+     }
+    </script>
+
+
+    <h1>NOT MY PROBLEM</h1>
+  </head>
+
+  <body>
+    <br>
+     <div id="main_content">
+
+     <li class="selected" id="About" onclick="change_tab(this.id);">About</li>
+     <li class="notselected" id="Products" onclick="change_tab(this.id);">Products</li>
+     <li class="notselected" id="Travel" onclick="change_tab(this.id);">Travel</li>
+
+     <div class='hidden_desc' id="About_desc">
+      <h2>What We Are</h2>
+      Ocean pollution, climate change, and other environmental impacts have become increasingly difficult to remove. This website is a satirical analysis of what our world could become if our current environmental ruin continues unresolved, because we’ve realized that it’s hard to actually comprehend what the effect of plastic pollution and damage our oceans face. Satire is a technique used by writers to try to improve humanity by criticizing its wickedness, and gains user interest through its entertainment. We tried to create a non-traditional and engaging way for people to realize what's happening in the world and motivate them to change bad habits that harm the environment.
+      <h2>What's Next?</h2>
+      Climate change is real whether some world leaders believe it or not. The steps we can take as individuals are limited, but as a whole, the sky's the limit. Human mistreatment has endangered the world around us, so it is only right that we take action to return Mother Nature to her glory days. We could continue to build on this project by partnering with the federal police to more heavily enforce the Clean Water Act and preserve our oceans and the life in it. On a chemical level, air pollution has played a major role in the rapid progression of global warming. Although Earth’s three trillion trees could attempt to combat our ozone depletion, deforestation has been causing our forests to shut down.
+<br><br>
+By partnering with influential, environmentally aware manufacturers such as Georgia-Pacific Corp and Stora Enso, we could use this platform to expose and confront corporate environmental abuse. We could further improve this by partnering with the products that we list to get a commision of the sales, which would then be donated to different organizations.
+<br><br>
+We hope that this project continues to encourages people to be more optimistic about the future health of Earth by shifting attitudes about concern for the natural world and the damage that humans are doing to the planet.
+
+     </div>
+
+
+<!--Products Page-->
+     <div class='hidden_desc' id="Products_desc">
+      <h2>Products</h2>
+
+      <img src="https://cdn.thisiswhyimbroke.com/images/laser-star-projector1-300x250.jpg" alt="Star" height="300"><br>
+      <div style="color:orange;font-family: 'Faster One', cursive;font-size:50px;"">Starter Kit for Stargazers</div><br>As seen on TV!<br>
+      Miss the stars? Can’t see them past the light pollution? We have you covered! This item projects authentic-looking stars into any flat surface like a ceiling, or an open space like your backyard.
+      <br>
+      <div class="lastLine">
+      Click <a href="star.html">here</a> to shop.
+      <br><br>
+      </div>
+      <br><br>
+
+      <img src="https://thumb1.shutterstock.com/display_pic_with_logo/212824/455145976/stock-photo-portrait-of-firefighter-in-safety-uniform-holding-yellow-oxygen-tank-455145976.jpg" alt="Acid Raincoat" height="300">
+      <div style="color:#F5D16F;font-family: 'Monofett', cursive; font-size:45px;"">Acid Raincoat </div><br>
+      Top rated!<br>
+      Comes with a raincoat to shield the rain, am oxygen mask to filter the nitrogen released, and a hat to protect your head. Won't protect your plants and crops, but they were dying anyway. Available in red, yellow, and black.
+      <br>
+      <div class="lastLine">
+      Click <a href="rain.html">here</a> to shop.
+      <br><br>
+      </div>
+      <br><br>
+
+      <b><div style="font-size: 24px;">NEW ARRIVALS:</div></b> <br>
+      <img src="https://ae01.alicdn.com/kf/HTB1SYuiIVXXXXcdXpXXq6xXFXXXm/12-Inch-Cute-Animal-Backpacks-For-Kids-White-Tiger-Bag-For-Children-Boys-School-Backpack-Printed.jpghttps://ae01.alicdn.com/kf/HTB1SYuiIVXXXXcdXpXXq6xXFXXXm/12-Inch-Cute-Animal-Backpacks-For-Kids-White-Tiger-Bag-For-Children-Boys-School-Backpack-Printed.jpg" alt="Bag" height="300">
+      <div style="font-family: 'Bungee Shade', cursive; color: gray; font-size: 45px;">Animal Skin Bags</div><br>
+      A popular request and latest trend, these bags are made from the skins of animals that died from climate change.
+      <br>
+      <div class="lastLine">
+      Click <a href="bag.html">here</a> to shop.
+      <br><br>
+      </div>
+      <br><br>
+
+      <img src="http://www.news.ucsb.edu/sites/www.news.ucsb.edu/files/styles/slideshow_image/public/slideshow_images/2015/iStock_plastic_in_ocean.jpg?itok=AiuuWwCz" alt="Soda Rings" height="300">
+      <br><div style="font-family: 'Ewert', cursive; color: #4970F5; font-size: 45px;">Soda Ring Fish Net</div><br>
+      These soda ring traps are a modern twist on a fishy classic and are a must-have for a successful fishing trip!
+      <br>
+      <div class="lastLine">
+      Click <a href="plastic.html">here</a> to shop.
+      <br><br>
+      </div>
+
+     </div>
+<!--End of Products Page-->
+
+<!--Travel Page-->
+     <div class='hidden_desc' id="Travel_desc">
+      <h2>Travel</h2>
+      <img src="https://cdn1.img.sputniknews.com/images/103818/46/1038184657.jpg" alt="Pacific Islands" height="300">
+      <h3>The Pacific Islands</h3>
+      <div class="lastLine">
+      This floating heap of trash is the size of Russia! If you’re a fan of Mean Girls, be sure to visit these huge piles of plastic. Unlike my last relationship, plastic is one of the most durable materials on earth, with a potential lifespan of centuries.
+      <br><br>
+      </div>
+
+      <br><br>
+      <img src="https://img.washingtonpost.com/rf/image_480w/2010-2019/WashingtonPost/2017/03/19/Editorial-Opinion/Images/Australia_Bleached_Reef_61621-cfbeb-2106.jpg?uuid=GtlOogzaEeedWqg-Yn3BIA" alt="Great Barrier Bleach" height="300">
+      <h3>The Great Barrier Reef</h3>
+      <div class="lastLine">
+      Half the coral reef is still visible, so be sure to visit it while you still can! You’ve seen the tide pod and bleach memes, but now you can even partake in the annual coral bleaching events this summer when water is too warm and corals expel the algae living in their tissues, causing the coral to turn completely white. Student discounts are available.
+      </div>
+
+      <br><br>
+      <img src="https://i2.wp.com/www.quotesandjokes.co.za/wp-content/uploads/2014/10/Kalahari.jpg?fit=1024%2C768" alt="Sahara Desert" height="300">
+      <h3>The Sahara Desert</h3>
+      <div class="lastLine">
+      This place is going from dry to drier, just like my DMs.
+      <br><br>
+      </div>
+
+      <br><br>
+      <img src="http://www.nogeoingegneria.com/wp-content/uploads/2016/11/Mass-Animals-death.jpg" alt="Siberia" height="300">
+      <h3>Siberia</h3>
+      <div class="lastLine">
+      This one’s for all you people who hate adorable animals. Reindeer and other animals are dying by the thousands by starvation because of increases in rain, causing abnormally thick layers of snow and ice in their habitat, making it impossible for them to access the vegetation on which they survive. As a result, most of Siberia’s animal species and communities that rely on them face a serious threat of climate change, so more living space for us!
+      <br><br>
+      </div>
+      <br><br>
+     </div>
+<!--End of Travel Page-->
+
+<!--Default Page-->
+     <div id="page_content">
+        <h2>What We Are</h2>
+        Ocean pollution, climate change, and other environmental impacts have become increasingly difficult to remove. This website is a satirical analysis of what our world could become if our current environmental ruin continues unresolved, because we’ve realized that it’s hard to actually comprehend what the effect of plastic pollution and damage our oceans face. Satire is a technique used by writers to try to improve humanity by criticizing its wickedness, and gains user interest through its entertainment. We tried to create a non-traditional and engaging way for people to realize what's happening in the world and motivate them to change bad habits that harm the environment.
+        <h2>What's Next?</h2>
+        Climate change is real whether some world leaders believe it or not. The steps we can take as individuals are limited, but as a whole, the sky's the limit. Human mistreatment has endangered the world around us, so it is only right that we take action to return Mother Nature to her glory days. We could continue to build on this project by partnering with the federal police to more heavily enforce the Clean Water Act and preserve our oceans and the life in it. On a chemical level, air pollution has played a major role in the rapid progression of global warming. Although Earth’s three trillion trees could attempt to combat our ozone depletion, deforestation has been causing our forests to shut down.
+  <br><br>
+  By partnering with influential, environmentally aware manufacturers such as Georgia-Pacific Corp and Stora Enso, we could use this platform to expose and confront corporate environmental abuse. We could further improve this by partnering with the products that we list to get a commision of the sales, which would then be donated to different organizations.
+  <br><br>
+  We hope that this project continues to encourages people to be more optimistic about the future health of Earth by shifting attitudes about concern for the natural world and the damage that humans are doing to the planet.
+      <br><br>
+      <a href="references.html">References</a>
+       </div>
+<!--End of Default Page-->
+
+    </div>
+
+  </body>
+</html>

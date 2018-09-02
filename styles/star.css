@@ -1,0 +1,31 @@
+html {
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  background-image: url("https://i.ytimg.com/vi/cg_zhVD1f_k/maxresdefault.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  width: 900px;
+  margin: 0 auto;
+  font-family: 'Roboto Slab', serif;
+  color: #FBF96E;
+  height: 100%;
+}
+
+h1 {
+  font-size: 55px;
+  font-family: 'Roboto Slab', serif;
+  color: #FBF716;
+  text-align: center;
+}
+
+a {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  color: #FFC846;
+
+}

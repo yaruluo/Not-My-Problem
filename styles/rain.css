@@ -1,0 +1,44 @@
+html {
+  font-size: 19px;
+  font-family: 'Roboto Slab', serif;
+  background-image: url("https://qph.fs.quoracdn.net/main-qimg-0f0990fd4bd2c0213d9b55ef1d19e4c2-c");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 5px solid black;
+    border-radius: 20px;
+    opacity: 0.8;
+    filter: alpha(opacity=60);
+}
+
+div.transbox  {
+    margin: 2%;
+    color: #000000;
+}
+
+body {
+  width: 1300px;
+  margin: 0 auto;
+  font-family: 'Roboto Slab', serif;
+  color: #FBF96E;
+}
+
+h1 {
+  font-size: 50px;
+  margin-left: 5px;
+  font-family: 'Roboto Slab', serif;
+  color: black;
+  text-align: center;
+}
+
+a {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  color: #2D5BF8;
+
+}
